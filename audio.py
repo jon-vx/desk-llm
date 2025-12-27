@@ -7,7 +7,8 @@ assert numpy
 
 device : int = 0
 samplerate : int = 48000
-filename : str = "sound!.wav"
+filename : str = "test.wav"
+
 
 q = queue.Queue()
 
