@@ -14,7 +14,7 @@ client = OpenAI()
 audio_file = open("test.wav", "rb")
 
 transcription = client.audio.transcriptions.create(
-    model="gpt-4o-mini-transcribe",
+    model="gpt-4o-mini-transcribe-2025-12-15",
     file=audio_file
 )
 
