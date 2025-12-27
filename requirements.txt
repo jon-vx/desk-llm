@@ -1,0 +1,5 @@
+python-dotenv
+openai
+sounddevice
+numpy
+soundfile
